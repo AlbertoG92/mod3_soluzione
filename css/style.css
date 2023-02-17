@@ -1,0 +1,137 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff
+}
+
+#la_mia_navbar {
+	border-radius: 0;
+	border: 0;
+	background-color: aquamarine;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-toggle{
+	position: relative;
+	float: right;
+	background-image: none;
+	background-color: none;
+	margin-bottom: 8px;
+	margin-right: 15px;
+	margin-top: 8px;
+	padding: 9px 10px;
+	border: 1px solid;
+}
+
+.navbar{
+    background-color: black;
+	border-radius: 0px;
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	height: 2px;
+	width: 22px;
+	border: 2px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+	border: 2px solid white;
+	margin-right: 25px;
+    display: block;
+    background-color: white;
+    border-radius: 1px;
+    height: 2px;
+    float: left;
+}
+
+
+/* così facendo elimino il bottone a 3 linee nella visualizzazion Desktop e Tablet e lo visualizzo solo nella vista Mobile */
+@media (min-width: 768px) {
+ .navbar-toggle {
+    display: none;
+                }
+            }
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #61122f;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#la_mia_navbar{
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 0;
+
+}
